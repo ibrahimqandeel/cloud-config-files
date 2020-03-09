@@ -15,11 +15,22 @@ mananagment:
         include: '*'
         
 spring:
+  zipkin:
+    sender:
+      type: RABBIT
   rabbitmq:
     host: localhost
-    port: 15762
+    port: 5762
     username: guest
     password: guest
+      
+        
+#spring:
+#  rabbitmq:
+#    host: localhost
+#    port: 15762
+#    username: guest
+#    password: guest
           
 #spring.rabbitmq.host=localhost
 #spring.rabbitmq.port=5672
