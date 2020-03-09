@@ -14,18 +14,10 @@ mananagment:
       exposure:
         include: '*'
         
-spring:
-  zipkin:
-    sender:
-      type: RABBIT
-  rabbitmq:
-    host: localhost
-    port: 15762
-    username: guest
-    password: guest
-      
-        
 #spring:
+#  zipkin:
+#    sender:
+#      type: RABBIT
 #  rabbitmq:
 #    host: localhost
 #    port: 15762
